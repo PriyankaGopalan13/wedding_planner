@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <title>Wedding Planner</title>
+    <style>
+      header{
+        background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,0.3)), url(icon/wedbg.png) no-repeat center center /cover;
+        height: 100vh;
+      }
+      .banner{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 30%;
+        background-color: rgba(0,0,0,0.3);
+      }
+    </style>
+    </head>
+    <body>
+      <form action="about.html">
+      <header>
+        <div class="text-light text-center banner p-5">
+          <h1 class="display-6 ">Login to BridalArc</h1>
+          <p class="lead">Easily using</p>
+          <a href="https://www.facebook.com" style="margin-right:20px"><img src="icon/fbico.png" width=40px></a>
+          <a href="https://aboutme.google.com"><img src="icon/gico.png" width=40px></a>
+          <p class="lead">OR</p>
+          <input class="m-4" type="text" name="email" placeholder="Email Address">
+          <input type="password" name="pass" placeholder="Password">
+          <a href="#" class="text-danger"><p>Forget password?</p></a>
+          <input type="submit" value="SIGN IN" id="button">
+          <p>Don't have an account?<a class="text-danger" href="#">REGISTER</a></p>
+          <p>OR<a class="text-warning" href="#">I'M A VENDOR</a></p>
+        </div>
+      </header>
+    </form>
+  </body>
+</html>
